@@ -13,15 +13,28 @@
 		C419EC28274AE166003B3B36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EC16274AE164003B3B36 /* ContentView.swift */; };
 		C419EC29274AE166003B3B36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C419EC17274AE165003B3B36 /* Assets.xcassets */; };
 		C419EC2A274AE166003B3B36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C419EC17274AE165003B3B36 /* Assets.xcassets */; };
+		C419EC35274AE24F003B3B36 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EC34274AE24F003B3B36 /* Home.swift */; };
+		C419EC37274AE743003B3B36 /* BannerAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419EC36274AE743003B3B36 /* BannerAd.swift */; };
+		C8B70ACD7CA605906EC67161 /* Pods_BannerADView__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EADC4D14D8A9A1FA8E01BA /* Pods_BannerADView__iOS_.framework */; };
+		F3090F8F1768DFEB52BC5C35 /* Pods_BannerADView__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61EAEDE825176A9BE390D7AA /* Pods_BannerADView__macOS_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1026B238AF3E50C3EAF0D6CF /* Pods-BannerADView (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BannerADView (macOS).release.xcconfig"; path = "Target Support Files/Pods-BannerADView (macOS)/Pods-BannerADView (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		2D66E44516A2EF9D20C777CF /* Pods-BannerADView (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BannerADView (iOS).debug.xcconfig"; path = "Target Support Files/Pods-BannerADView (iOS)/Pods-BannerADView (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		437B74350DD47BBABE14C5B4 /* Pods-BannerADView (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BannerADView (iOS).release.xcconfig"; path = "Target Support Files/Pods-BannerADView (iOS)/Pods-BannerADView (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		57EADC4D14D8A9A1FA8E01BA /* Pods_BannerADView__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BannerADView__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61EAEDE825176A9BE390D7AA /* Pods_BannerADView__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BannerADView__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBD6052EEA6AA14D0906AEC /* Pods-BannerADView (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BannerADView (macOS).debug.xcconfig"; path = "Target Support Files/Pods-BannerADView (macOS)/Pods-BannerADView (macOS).debug.xcconfig"; sourceTree = "<group>"; };
 		C419EC15274AE164003B3B36 /* BannerADViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerADViewApp.swift; sourceTree = "<group>"; };
 		C419EC16274AE164003B3B36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C419EC17274AE165003B3B36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C419EC1C274AE166003B3B36 /* BannerADView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BannerADView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C419EC22274AE166003B3B36 /* BannerADView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BannerADView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C419EC24274AE166003B3B36 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		C419EC34274AE24F003B3B36 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C419EC36274AE743003B3B36 /* BannerAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAd.swift; sourceTree = "<group>"; };
+		C419EC38274AE947003B3B36 /* BannerADView--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BannerADView--iOS--Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8B70ACD7CA605906EC67161 /* Pods_BannerADView__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,24 +50,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3090F8F1768DFEB52BC5C35 /* Pods_BannerADView__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5ADB4F0097BC6BC4515F07AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D66E44516A2EF9D20C777CF /* Pods-BannerADView (iOS).debug.xcconfig */,
+				437B74350DD47BBABE14C5B4 /* Pods-BannerADView (iOS).release.xcconfig */,
+				6EBD6052EEA6AA14D0906AEC /* Pods-BannerADView (macOS).debug.xcconfig */,
+				1026B238AF3E50C3EAF0D6CF /* Pods-BannerADView (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A54AA06CAEB125E58AC0ECE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57EADC4D14D8A9A1FA8E01BA /* Pods_BannerADView__iOS_.framework */,
+				61EAEDE825176A9BE390D7AA /* Pods_BannerADView__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C419EC0F274AE164003B3B36 = {
 			isa = PBXGroup;
 			children = (
+				C419EC38274AE947003B3B36 /* BannerADView--iOS--Info.plist */,
 				C419EC14274AE164003B3B36 /* Shared */,
 				C419EC23274AE166003B3B36 /* macOS */,
 				C419EC1D274AE166003B3B36 /* Products */,
+				5ADB4F0097BC6BC4515F07AE /* Pods */,
+				A54AA06CAEB125E58AC0ECE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		C419EC14274AE164003B3B36 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				C419EC33274AE245003B3B36 /* View */,
 				C419EC15274AE164003B3B36 /* BannerADViewApp.swift */,
 				C419EC16274AE164003B3B36 /* ContentView.swift */,
 				C419EC17274AE165003B3B36 /* Assets.xcassets */,
@@ -78,6 +117,15 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		C419EC33274AE245003B3B36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C419EC34274AE24F003B3B36 /* Home.swift */,
+				C419EC36274AE743003B3B36 /* BannerAd.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,9 +133,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C419EC2D274AE166003B3B36 /* Build configuration list for PBXNativeTarget "BannerADView (iOS)" */;
 			buildPhases = (
+				3B89413739A092CB484819E8 /* [CP] Check Pods Manifest.lock */,
 				C419EC18274AE166003B3B36 /* Sources */,
 				C419EC19274AE166003B3B36 /* Frameworks */,
 				C419EC1A274AE166003B3B36 /* Resources */,
+				9F96274E2A9FB28E0B080AB5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -102,6 +152,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C419EC30274AE166003B3B36 /* Build configuration list for PBXNativeTarget "BannerADView (macOS)" */;
 			buildPhases = (
+				15065FEC602696E087FB565A /* [CP] Check Pods Manifest.lock */,
 				C419EC1E274AE166003B3B36 /* Sources */,
 				C419EC1F274AE166003B3B36 /* Frameworks */,
 				C419EC20274AE166003B3B36 /* Resources */,
@@ -171,12 +222,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15065FEC602696E087FB565A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BannerADView (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B89413739A092CB484819E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BannerADView (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F96274E2A9FB28E0B080AB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BannerADView (iOS)/Pods-BannerADView (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BannerADView (iOS)/Pods-BannerADView (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BannerADView (iOS)/Pods-BannerADView (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C419EC18274AE166003B3B36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C419EC37274AE743003B3B36 /* BannerAd.swift in Sources */,
 				C419EC27274AE166003B3B36 /* ContentView.swift in Sources */,
+				C419EC35274AE24F003B3B36 /* Home.swift in Sources */,
 				C419EC25274AE166003B3B36 /* BannerADViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +423,7 @@
 		};
 		C419EC2E274AE166003B3B36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D66E44516A2EF9D20C777CF /* Pods-BannerADView (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +432,7 @@
 				DEVELOPMENT_TEAM = G7DSPSWXXC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BannerADView--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -336,6 +455,7 @@
 		};
 		C419EC2F274AE166003B3B36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 437B74350DD47BBABE14C5B4 /* Pods-BannerADView (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -344,6 +464,7 @@
 				DEVELOPMENT_TEAM = G7DSPSWXXC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BannerADView--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -367,6 +488,7 @@
 		};
 		C419EC31274AE166003B3B36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EBD6052EEA6AA14D0906AEC /* Pods-BannerADView (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -395,6 +517,7 @@
 		};
 		C419EC32274AE166003B3B36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1026B238AF3E50C3EAF0D6CF /* Pods-BannerADView (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
